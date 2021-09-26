@@ -3,6 +3,7 @@ body {
    padding: 0;
    box-sizing: border-box;
    background-color: rgb(255, 249, 212);
+   font-family: 'Patrick Hand', cursive;
 }
 .bg-dark {
    background-color:rgb(26, 26, 26) !important;
@@ -10,9 +11,6 @@ body {
 .btn {
    color: white;
    border-color: white;
-}
-.navbar-collapse {
-
 }
 .action-selection {
    display:flex;
@@ -59,4 +57,157 @@ body {
    align-items: center;
    background-color: rgb(26, 26, 26);
    height: 100px;
+}
+.box-link {
+   color: black;
+   text-decoration:none;
+}
+h2 :hover {
+   color:rgb(61, 61, 61);
+}
+.address-book-content {
+padding: 5px;
+word-wrap: break-word;
+}
+.profile-elements {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   margin-left: 40px;
+}
+.address-book {
+   height: 100%;
+   z-index: 1;
+   word-wrap: break-word;
+   overflow:auto;
+   left: 0;
+   width: 40px;
+   position: fixed;
+   display: flex;
+   background-color: white;
+}
+.profile-container {
+   height: 66vh;
+   background-color:white;
+   width: 100%;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+}
+.recent-activity {
+   height: 34vh;
+   background-color:white;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header-text {
+   display: flex;
+   justify-content: center;
+   padding: 5%;
+}
+.subheader-text {
+   display: flex;
+   justify-content: center;
+}
+.sub-subheader-text {
+   display:flex;
+   justify-content: center;
+}
+.discover-card-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.discover-card {
+   background-color: white;
+   width: 40%;
+   height: 33vh;
+   margin: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.share-card-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.share-card {
+   background-color: white;
+   width: 40%;
+   height: 33vh;
+   margin: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.new {
+   background-color: rgb(148, 171, 219);
+}
+.edit {
+   background-color: rgb(122, 172, 115);
+}
+.view {
+   background-color: rgb(179, 161, 127);
+}
+@media (min-width: 48em) {
+   .action {
+      width: 25%;
+      height: 200px;
+   }
+   .action-descriptions {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .action-descriptions :nth-child(1) {order: 1;}
+   .action-descriptions :nth-child(2) {order: 2;}
+   .action-descriptions :nth-child(3) {order: 4;}
+   .action-descriptions :nth-child(4) {order: 3;}
+   .action-descriptions :nth-child(5) {order: 5;}
+   .action-descriptions :nth-child(6) {order: 6;}
+   .action-descriptions :nth-child(7) {order: 8;}
+   .action-descriptions :nth-child(8) {order: 7;}
+   .action-description-image {
+      width: 50%;
+   }
+   .action-description-text {
+      width: 50%;
+      height:auto;
+      font-size: 200%;
+   }
+   .action-text-heading {
+      font-size: 200%;
+   }
+   .action-labels {
+      font-size: 200%;
+   }
+   .body {
+      margin-left: 200px;
+   }
+   .address-book {
+      width: 200px;
+   }
+   .profile-container {
+      display:flex;
+      justify-content: center;
+      width: 75%;
+   }
+   .recent-activity {
+      display:flex;
+      justify-content: center;
+      width: 75%;
+   }
+   .profile-elements {
+      margin-right: 200px;
+   }
+   .discover-card {
+      width: 22%;
+   }
+   .share-card {
+      width: 22%;
+   }
 }
